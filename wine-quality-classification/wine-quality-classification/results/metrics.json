@@ -1,0 +1,164 @@
+{
+  "dataset": {
+    "n_amostras": 1143,
+    "n_features_originais": 11,
+    "n_features_apos_engenharia": 15,
+    "valores_faltantes": 0,
+    "linhas_duplicadas_completas": 125,
+    "classe_alta_qualidade_pct": 13.91,
+    "classe_baixa_media_pct": 86.09
+  },
+  "outliers_iqr": {
+    "fixed acidity": {
+      "n_outliers": 44,
+      "pct": 3.85,
+      "low": 4.1,
+      "high": 12.1
+    },
+    "volatile acidity": {
+      "n_outliers": 14,
+      "pct": 1.22,
+      "low": 0.021,
+      "high": 1.011
+    },
+    "citric acid": {
+      "n_outliers": 1,
+      "pct": 0.09,
+      "low": -0.405,
+      "high": 0.915
+    },
+    "residual sugar": {
+      "n_outliers": 110,
+      "pct": 9.62,
+      "low": 0.85,
+      "high": 3.65
+    },
+    "chlorides": {
+      "n_outliers": 77,
+      "pct": 6.74,
+      "low": 0.04,
+      "high": 0.12
+    },
+    "free sulfur dioxide": {
+      "n_outliers": 18,
+      "pct": 1.57,
+      "low": -14.0,
+      "high": 42.0
+    },
+    "total sulfur dioxide": {
+      "n_outliers": 40,
+      "pct": 3.5,
+      "low": -39.0,
+      "high": 121.0
+    },
+    "density": {
+      "n_outliers": 36,
+      "pct": 3.15,
+      "low": 0.992,
+      "high": 1.001
+    },
+    "pH": {
+      "n_outliers": 20,
+      "pct": 1.75,
+      "low": 2.913,
+      "high": 3.692
+    },
+    "sulphates": {
+      "n_outliers": 43,
+      "pct": 3.76,
+      "low": 0.28,
+      "high": 1.0
+    },
+    "alcohol": {
+      "n_outliers": 12,
+      "pct": 1.05,
+      "low": 7.1,
+      "high": 13.5
+    }
+  },
+  "correlacao_com_quality": {
+    "alcohol": 0.485,
+    "sulphates": 0.258,
+    "citric acid": 0.241,
+    "fixed acidity": 0.122,
+    "residual sugar": 0.022,
+    "pH": -0.052,
+    "free sulfur dioxide": -0.063,
+    "chlorides": -0.124,
+    "density": -0.175,
+    "total sulfur dioxide": -0.183,
+    "volatile acidity": -0.407
+  },
+  "melhores_hiperparametros": {
+    "random_forest": {
+      "max_depth": 12,
+      "min_samples_leaf": 3,
+      "n_estimators": 400
+    },
+    "svm": {
+      "C": 5,
+      "gamma": 0.1,
+      "kernel": "rbf"
+    }
+  },
+  "metricas": {
+    "random_forest": {
+      "accuracy": 0.8952,
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1": 0.625,
+      "roc_auc": 0.8931,
+      "cv_f1_mean": 0.6414,
+      "cv_f1_std": 0.0544,
+      "cv_roc_auc_mean": 0.9165,
+      "cv_roc_auc_std": 0.0155
+    },
+    "svm": {
+      "accuracy": 0.8908,
+      "precision": 0.6207,
+      "recall": 0.5625,
+      "f1": 0.5902,
+      "roc_auc": 0.8733,
+      "cv_f1_mean": 0.629,
+      "cv_f1_std": 0.0697,
+      "cv_roc_auc_mean": 0.8984,
+      "cv_roc_auc_std": 0.0201
+    }
+  },
+  "importancia_variaveis": {
+    "random_forest": {
+      "alcohol_density": 0.1462,
+      "alcohol": 0.1326,
+      "sulphates": 0.1024,
+      "acid_balance": 0.0955,
+      "citric acid": 0.0873,
+      "volatile acidity": 0.0769,
+      "acidity_alcohol_interaction": 0.0744,
+      "density": 0.0442,
+      "total sulfur dioxide": 0.0415,
+      "fixed acidity": 0.0403,
+      "free_sulfur_ratio": 0.0396,
+      "chlorides": 0.0385,
+      "pH": 0.031,
+      "residual sugar": 0.0263,
+      "free sulfur dioxide": 0.0233
+    },
+    "svm_permutation": {
+      "sulphates": 0.1454,
+      "density": 0.1283,
+      "volatile acidity": 0.1095,
+      "acid_balance": 0.0847,
+      "free_sulfur_ratio": 0.0613,
+      "total sulfur dioxide": 0.0593,
+      "free sulfur dioxide": 0.0194,
+      "citric acid": 0.0141,
+      "chlorides": 0.0131,
+      "alcohol": 0.0051,
+      "alcohol_density": 0.0046,
+      "fixed acidity": -0.0027,
+      "acidity_alcohol_interaction": -0.0031,
+      "pH": -0.0122,
+      "residual sugar": -0.04
+    }
+  }
+}
