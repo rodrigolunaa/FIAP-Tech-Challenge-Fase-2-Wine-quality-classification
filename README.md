@@ -1,4 +1,8 @@
 # Classificando a Qualidade de Vinhos com Machine Learning
+## Entregáveis
+- 🎥 Vídeo executivo: [[link do YouTube]](https://youtu.be/Sl257ZFhSvk)
+- 📊 Apresentação executiva: [results/apresentacao_executiva.pdf](./results/apresentacao_executiva.pdf)
+- 📓 Notebook: [notebooks/wine_quality_classification.ipynb](./notebooks/wine_quality_classification.ipynb)
 
 Tech Challenge — Fase 2 (POSTECH). Pipeline de classificação binária para prever se um vinho é de **Alta Qualidade** (nota ≥ 7) ou **Baixa/Média Qualidade** (nota < 7), a partir de suas características físico-químicas.
 
