@@ -6,7 +6,7 @@ Tech Challenge — Fase 2 (POSTECH). Pipeline de classificação binária para p
 
 A avaliação sensorial de vinhos por especialistas é subjetiva e demorada. Este projeto usa dados físico-químicos objetivos (acidez, teor alcoólico, densidade, dióxido de enxofre etc.) para treinar modelos preditivos que apoiem decisões de produção e padronização de qualidade.
 
-**Fonte dos dados:** [Wine Quality Dataset (Kaggle)](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset) — variante tinta do "Vinho Verde" português, 1.143 amostras.
+**Fonte dos dados:** [Wine Quality Dataset (Kaggle)](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset) —  1.143 amostras.
 
 ## Estrutura do repositório
 
