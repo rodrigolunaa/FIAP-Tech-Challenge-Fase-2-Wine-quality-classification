@@ -1,5 +1,7 @@
 # Classificando a Qualidade de Vinhos com Machine Learning
-
+- 🎥 Vídeo executivo: [[link do YouTube]](https://youtu.be/Sl257ZFhSvk)
+- 📊 Apresentação executiva: [[apresentacao_executiva.pdf]](https://github.com/rodrigolunaa/FIAP-Tech-Challenge-Fase-2-Wine-quality-classification/blob/main/wine-quality-classification/wine-quality-classification/results/apresentacao_executiva.pdf)
+- 📓 Notebook: [[notebooks/wine_quality_classification.ipynb]](https://github.com/rodrigolunaa/FIAP-Tech-Challenge-Fase-2-Wine-quality-classification/blob/main/wine-quality-classification/wine-quality-classification/notebooks/wine_quality_classification.ipynb)
 Tech Challenge — Fase 2 (POSTECH). Pipeline de classificação binária para prever se um vinho é de **Alta Qualidade** (nota ≥ 7) ou **Baixa/Média Qualidade** (nota < 7), a partir de suas características físico-químicas.
 
 ## Contexto
